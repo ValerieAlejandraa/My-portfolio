@@ -1,5 +1,7 @@
+/* Importing the Poppins font styles from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+/* Resetting default styles for all elements */
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,7 @@
   text-decoration: none;
 }
 
+/* Defining custom color variables */
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
@@ -25,14 +28,17 @@
   --container-width-sm: 90%;
 }
 
+/* Configuring smooth scrolling behavior for HTML */
 html {
   scroll-behavior: smooth;
 }
 
+/* Hiding scrollbar */
 ::-webkit-scrollbar {
   display: none;
 }
 
+/* Basic styling for the entire body */
 body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
@@ -41,12 +47,13 @@ body {
   background-image: url(../src/assets/bg-texture.png);
 }
 
-/* ============== GENEARL STYLES ============== */
+/* General styling for containers */
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
 }
 
+/* Typography styles for heading elements */
 h1,
 h2,
 h3,
@@ -55,38 +62,46 @@ h5 {
   font-weight: 500;
 }
 
+/* Styles for h1 element */
 h1 {
   font-size: 2.5rem;
 }
 
+/* Styling for sections */
 section {
   margin-top: 8rem;
 }
 
+/* Styling for h2 and h5 elements within sections */
 section > h2,
 section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 
+/* Styling for h2 element within sections */
 section > h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;
 }
 
+/* Styling for text with light color */
 .text-light {
   color: var(--color-light);
 }
 
+/* Styling for links */
 a {
   color: var(--color-primary);
   transition: var(--transition);
 }
 
+/* Styling for links on hover */
 a:hover {
   color: var(--color-white);
 }
 
+/* Styling for buttons */
 .btn {
   width: max-content;
   display: inline-block;
@@ -98,41 +113,22 @@ a:hover {
   transition: var(--transition);
 }
 
+/* Styling for buttons on hover */
 .btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
 }
 
+/* Styling for primary buttons */
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
 }
 
+/* Styling for images */
 img {
   display: block;
   width: 100%;
   object-fit: cover;
-}
-
-/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
-@media screen and (max-width: 1024px) {
-  .container {
-    width: var(--container-width-md);
-  }
-
-  section {
-    margin-top: 6rem;
-  }
-}
-
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-@media screen and (max-width: 600px) {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  section > h2 {
-    margin-bottom: 2rem;
-  }
 }

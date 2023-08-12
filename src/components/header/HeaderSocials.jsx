@@ -1,12 +1,11 @@
 import React from 'react'
 import {BsLinkedin} from 'react-icons/bs'
-
+import {FaGithub} from 'react-icons/fa'
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
         <a href='https://www.linkedin.com/in/valerie-perez-portfolio/' target="_blank"><BsLinkedin/></a>
-        <a href='https://github.com/ValerieAlejandraa' target="_blank"></a>
-        
+        <a href='https://github.com/ValerieAlejandraa' target="_blank"><FaGithub/></a>
     </div>
   )
 }

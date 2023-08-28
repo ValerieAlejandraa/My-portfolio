@@ -19,19 +19,20 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className="about_card">
+
+            <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
               <small>2+ Years Working</small>
             </article>
 
-            <article className="about_card">
+            <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
               <small>4+ Completed Projects</small>
             </article>
           </div>
-          
+
           <p>
             First-Generation College Graduate and Software Engineer, proficient
             in front-end and back-end programming languages obtained through a
@@ -40,6 +41,7 @@ const About = () => {
             to apply transferable and latest technical skills in a software
             development position.
           </p>
+
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>

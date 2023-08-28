@@ -35,9 +35,34 @@
     gap: 1.5rem;
 }
 
-.about__cards {
+.about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-}
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+  }
+
+  .about__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+  }
+
+  .about__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .about__card h5 {
+    font-size: 0.95rem;
+  }
+
+  .about__card small {
+    font-size: 0.7rem;
+    color: var(--color-light);
+  }
+
 

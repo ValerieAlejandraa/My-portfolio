@@ -21,20 +21,17 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Data Structures and Algorithms</p>
+              <p>JavaScript</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Data Structures and Algorithms</p>
+              <p>GitHub</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Data Structures and Algorithms</p>
+              <p>PostgreSQL</p>
             </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Data Structures and Algorithms</p>
-            </li>
+          
           </ul>
         </article>
       </div>

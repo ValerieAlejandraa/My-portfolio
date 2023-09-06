@@ -32,7 +32,7 @@ const Portfolio = () => {
             <h3>WeLoveMovies</h3>
             <div className="portfolio__item-cta">
             <a href="https://github.com/ValerieAlejandraa/WeLoveMovies" className='btn' target='_blank'>Github</a>
-            <a href="https://welovemoviesfrontend.onrender.com/theaters" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://welovemoviesfrontend.onrender.com" className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
         </article>
 
